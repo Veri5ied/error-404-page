@@ -1,0 +1,71 @@
+body {
+    font-family: cursive;
+}
+
+.container {
+    max-width: 1005px;
+    margin: 0 auto;
+    padding: 2em 1em;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    margin: 3em auto 0;
+    width: 405px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 12px;
+}
+
+button {
+    background: black;
+    font-family: cursive;
+    color: white;
+    height: 30px;
+    width: auto;
+    border: none;
+    border-radius: 90px;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media screen and (min-width:820px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    figure {
+        display: flex;
+    }
+
+    figure img {
+        width: 550px;
+    }
+
+    p {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    button {
+        background: rgb(75, 75, 216);
+        font-family: cursive;
+        color: white;
+        height: 45px;
+        width: auto;
+        border: none;
+        border-radius: 90px;
+        text-decoration: none;
+    }
+}
