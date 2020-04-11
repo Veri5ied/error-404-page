@@ -6,7 +6,7 @@ Error 404 Landing Page
 All you have to do is to get the index.html file being the main file of the project. Likewise the other files which includes the css and image.
 No additional plugin is required to run this file as it could be run anywhere and on any machine.
 # URL
-<a href="www.pagenot-found.netlify.com">Live Demo</a>
+<a href="http://www.pagenot-found.netlify.com">Live Demo</a>
 # Built With
 • HTML <br>
 • CSS (Flexbox)
